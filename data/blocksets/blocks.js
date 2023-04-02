@@ -61,6 +61,7 @@ var blocks = [
 	{ id: "smooth_basalt.png", rgb: [72, 72, 78] },
 	{ id: "smoker_side.png", rgb: [103, 93, 79] },
 	{ id: "smithing_table_top.png", rgb: [56, 57, 69] },
+	{ id: "smithing_table_front.png", rgb: [59, 38, 39] },
 	{ id: "smithing_table_bottom.png", rgb: [65, 28, 24] },
 	{ id: "shulker_box.png", rgb: [151, 103, 151] },
 	{ id: "shroomlight.png", rgb: [242, 151, 75] },
