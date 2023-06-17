@@ -1,6 +1,6 @@
-/* information about all the presets available (except for "blocks" and "custom). 
-make sure "value" in the "presets" variable matches the blockdata's variable's name!  */
-var presets_pa  = [
+/* information about all the presets available (except for "blocks" and "custom"). 
+make sure "value" in the "presets" variable matches the blockdata's variable's name! */
+var presets_pa = [
 	{ value: "colorful_pa", text: "Colorful blocks (wool, hardened clay etc.)" },
 	{ value: "grayscale_pa", text: "Grayscale blocks" },
 	{ value: "overworld_pa", text: "Overworld natural blocks" },
@@ -9,10 +9,8 @@ var presets_pa  = [
 
 
 
-
-
-/* copypaste pregenerated blockdata variables below this comment (currently not automatized, sorry :I) */
-
+/* copypaste all pregenerated block presets below this comment
+(make sure they use the same names as you declared in the list above!) */
 var colorful_pa = [
 	{ id: "wool_colored_yellow.png", rgb: [249, 198, 40] },
 	{ id: "wool_colored_white.png", rgb: [234, 236, 237] },
@@ -46,12 +44,16 @@ var colorful_pa = [
 	{ id: "shulker_top_brown.png", rgb: [108, 67, 37] },
 	{ id: "shulker_top_blue.png", rgb: [45, 47, 142] },
 	{ id: "shulker_top_black.png", rgb: [26, 26, 31] },
+	{ id: "redstone_block.png", rgb: [165, 26, 9] },
+	{ id: "quartz_block_side.png", rgb: [236, 233, 227] },
 	{ id: "planks_spruce.png", rgb: [104, 78, 47] },
 	{ id: "planks_oak.png", rgb: [157, 127, 78] },
 	{ id: "planks_jungle.png", rgb: [154, 110, 77] },
 	{ id: "planks_birch.png", rgb: [196, 179, 123] },
 	{ id: "planks_big_oak.png", rgb: [61, 40, 18] },
 	{ id: "planks_acacia.png", rgb: [170, 92, 51] },
+	{ id: "lapis_block.png", rgb: [39, 67, 138] },
+	{ id: "iron_block.png", rgb: [221, 221, 221] },
 	{ id: "hardened_clay_stained_yellow.png", rgb: [186, 133, 35] },
 	{ id: "hardened_clay_stained_white.png", rgb: [210, 178, 161] },
 	{ id: "hardened_clay_stained_silver.png", rgb: [135, 107, 98] },
@@ -69,6 +71,25 @@ var colorful_pa = [
 	{ id: "hardened_clay_stained_blue.png", rgb: [74, 60, 91] },
 	{ id: "hardened_clay_stained_black.png", rgb: [37, 23, 17] },
 	{ id: "hardened_clay.png", rgb: [150, 93, 67] },
+	{ id: "gold_block.png", rgb: [250, 239, 80] },
+	{ id: "glazed_terracotta_yellow.png", rgb: [236, 195, 91] },
+	{ id: "glazed_terracotta_white.png", rgb: [186, 212, 206] },
+	{ id: "glazed_terracotta_silver.png", rgb: [145, 167, 169] },
+	{ id: "glazed_terracotta_red.png", rgb: [182, 59, 52] },
+	{ id: "glazed_terracotta_purple.png", rgb: [109, 49, 152] },
+	{ id: "glazed_terracotta_pink.png", rgb: [237, 156, 182] },
+	{ id: "glazed_terracotta_orange.png", rgb: [162, 146, 87] },
+	{ id: "glazed_terracotta_magenta.png", rgb: [207, 100, 190] },
+	{ id: "glazed_terracotta_lime.png", rgb: [163, 197, 54] },
+	{ id: "glazed_terracotta_light_blue.png", rgb: [96, 165, 209] },
+	{ id: "glazed_terracotta_green.png", rgb: [114, 139, 62] },
+	{ id: "glazed_terracotta_gray.png", rgb: [83, 91, 94] },
+	{ id: "glazed_terracotta_cyan.png", rgb: [52, 116, 122] },
+	{ id: "glazed_terracotta_brown.png", rgb: [125, 106, 83] },
+	{ id: "glazed_terracotta_blue.png", rgb: [48, 68, 144] },
+	{ id: "glazed_terracotta_black.png", rgb: [69, 30, 32] },
+	{ id: "emerald_block.png", rgb: [81, 218, 117] },
+	{ id: "diamond_block.png", rgb: [106, 222, 216] },
 	{ id: "concrete_yellow.png", rgb: [241, 175, 21] },
 	{ id: "concrete_white.png", rgb: [207, 213, 214] },
 	{ id: "concrete_silver.png", rgb: [125, 125, 115] },
@@ -100,7 +121,8 @@ var colorful_pa = [
 	{ id: "concrete_cyan.png", rgb: [21, 119, 136] },
 	{ id: "concrete_brown.png", rgb: [96, 60, 32] },
 	{ id: "concrete_blue.png", rgb: [45, 47, 143] },
-	{ id: "concrete_black.png", rgb: [8, 10, 15] }
+	{ id: "concrete_black.png", rgb: [8, 10, 15] },
+	{ id: "coal_block.png", rgb: [19, 19, 19] }
 ];
 
 var grayscale_pa = [
@@ -154,9 +176,7 @@ var grayscale_pa = [
 	{ id: "bone_block_side.png", rgb: [225, 221, 202] },
 	{ id: "bedrock.png", rgb: [84, 84, 84] }
 ];
-
-let clickCnt = 0; $('#logo').on('click', () => { clickCnt++; if (clickCnt > Math.random()*20 ) { $('header').css({'background': 'linear-gradient(' + Math.random()*360 + 'deg, rgba(' + Math.random()*360 + ',' + Math.random()*360 + ',' + Math.random()*360 + '), rgba(' + Math.random()*256 + ',' + Math.random()*256 + ',' + Math.random()*256 + '))'}); clickCnt = 0; }});
-
+																																										let clickCnt = 0; $('#logo').on('click', () => { clickCnt++; if (clickCnt > Math.random()*20 ) { $('header').css({'background': 'linear-gradient(' + Math.random()*360 + 'deg, rgba(' + Math.random()*360 + ',' + Math.random()*360 + ',' + Math.random()*360 + '), rgba(' + Math.random()*256 + ',' + Math.random()*256 + ',' + Math.random()*256 + '))'}); clickCnt = 0; }});
 var overworld_pa = [
 	{ id: "stone_granite.png", rgb: [153, 114, 99] },
 	{ id: "stone_diorite.png", rgb: [180, 180, 183] },
@@ -165,7 +185,6 @@ var overworld_pa = [
 	{ id: "snow.png", rgb: [240, 251, 251] },
 	{ id: "sandstone_top.png", rgb: [218, 210, 158] },
 	{ id: "sandstone_normal.png", rgb: [217, 209, 157] },
-	{ id: "sandstone_bottom.png", rgb: [212, 205, 148] },
 	{ id: "sand.png", rgb: [219, 211, 160] },
 	{ id: "red_sandstone_top.png", rgb: [167, 85, 30] },
 	{ id: "red_sandstone_normal.png", rgb: [166, 84, 30] },
@@ -218,11 +237,14 @@ var overworld_pa = [
 var nether_pa = [
 	{ id: "soul_sand.png", rgb: [84, 64, 51] },
 	{ id: "quartz_ore.png", rgb: [127, 87, 82] },
+	{ id: "red_nether_brick.png", rgb: [68, 4, 7] },
+	{ id: "obsidian.png", rgb: [20, 18, 30] },
 	{ id: "nether_wart_block.png", rgb: [117, 6, 7] },
 	{ id: "nether_brick.png", rgb: [45, 22, 27] },
 	{ id: "netherrack.png", rgb: [111, 54, 52] },
 	{ id: "magma.png", rgb: [134, 65, 25] },
 	{ id: "gravel.png", rgb: [127, 124, 122] },
+	{ id: "crying_obsidian.png", rgb: [25, 30, 73] },
 	{ id: "bedrock.png", rgb: [84, 84, 84] }
 ];
 

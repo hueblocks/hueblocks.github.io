@@ -1,4 +1,4 @@
-/* generated at 2021-09-13 11:09:10.826672 */
+/* generated at 2023-06-18 00:08:21.713420 */
 
 var blocks_pa = [
 	{ id: "wool_colored_yellow.png", rgb: [249, 198, 40] },
@@ -55,13 +55,11 @@ var blocks_pa = [
 	{ id: "sandstone_smooth.png", rgb: [220, 212, 163] },
 	{ id: "sandstone_normal.png", rgb: [217, 209, 157] },
 	{ id: "sandstone_carved.png", rgb: [216, 208, 155] },
-	{ id: "sandstone_bottom.png", rgb: [212, 205, 148] },
 	{ id: "sand.png", rgb: [219, 211, 160] },
 	{ id: "red_sandstone_top.png", rgb: [167, 85, 30] },
 	{ id: "red_sandstone_smooth.png", rgb: [169, 86, 31] },
 	{ id: "red_sandstone_normal.png", rgb: [166, 84, 30] },
 	{ id: "red_sandstone_carved.png", rgb: [162, 82, 28] },
-	{ id: "red_sandstone_bottom.png", rgb: [163, 83, 28] },
 	{ id: "red_sand.png", rgb: [169, 88, 33] },
 	{ id: "red_nether_brick.png", rgb: [68, 4, 7] },
 	{ id: "redstone_ore.png", rgb: [134, 105, 105] },

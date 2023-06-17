@@ -286,23 +286,23 @@ function presetImport() {
 	/* wipe previous presets */
 	$("option").remove();
 
-	/* create 'Default (1.18 blocks)' option if blockset = blocks */
+	/* create 'Default (1.20.1 blocks)' option if blockset = blocks */
 	if (blockset == 'blocks') {
 		$('#blocksPresetDD').append(
 			$(document.createElement('option')).prop({
 				value: 'blocks',
-				text: 'Default (1.19.2 blocks)'
+				text: 'Default (1.20.1 blocks)'
 		}));
 	$('#blocksPresetDD').val('blocks');
 	blockData = eval( $('#blocksPresetDD').val() );
 	}
 
-	/* create 'Default (1.12.2 blocks)' option if blockset = blocks_pa */
+	/* create 'Default (1.20.1 PA blocks)' option if blockset = blocks_pa */
 	if (blockset == 'blocks_pa') {
 		$('#blocksPresetDD').append(
 			$(document.createElement('option')).prop({
 				value: 'blocks_pa',
-				text: 'Default (1.19.2 PA blocks)'
+				text: 'Default (1.20.1 PA blocks)'
 		}));
 	$('#blocksPresetDD').val('blocks_pa');
 	blockData = eval( $('#blocksPresetDD').val());
