@@ -1,5 +1,5 @@
-<p align=center><a href="https://1280px.github.io/hueblocks"><img src="https://raw.githubusercontent.com/1280px/hueblocks/main/readme-pic.png"></a><br>
-<i>Create beautiful block gradients in a few clicks! <a href="https://1280px.github.io/hueblocks">Web version available here</a></i></p>
+<p align=center><a href="https://irxqi.github.io/hueblocks"><img src="https://raw.githubusercontent.com/1280px/hueblocks/main/readme-pic.png"></a><br>
+<i>Create beautiful block gradients in a few clicks! <a href="https://irxqi.github.io/hueblocks">Web version available here</a></i></p>
 
 <b>HueBlocks is an online Minecraft block gradients generator powered by jQuery, Python and cinnamon latte. </b>
 <br>It's really simple to use: just enter two colours on a gradient bar and press the Big Black Button. That's it!
@@ -15,7 +15,7 @@ Additionally you can:<ul>
 HueBlocks uses Minecraft Java Edition 1.18 (Jappa-nese) and 1.12.2 (Programmer's Art) block textures. 
 <br>Please note that <i>not every single</i> texture included! Transparent, some non-solid and generally messy-looking blocks (like TNT) were scrapped for the sake of better gradient generation quality.
 
-If you want to generate custom presets for your fork, you can use blox2rgb.py — a simple Python script for autogeneration blockdata files. <i>Check <a href="https://github.com/1280px/hueblocks/tree/main/data/!!%20blox2rgb">"blox2rgb" folder</a> for more info</i>
+If you want to generate custom presets for your fork, you can use blox2rgb.py — a simple Python script for autogeneration blockdata files. <i>Check <a href="https://github.com/irxqi/hueblocks/tree/main/data/!!%20blox2rgb">"blox2rgb" folder</a> for more info</i>
 
 
 <br><h1>Legal Notice</h1>
